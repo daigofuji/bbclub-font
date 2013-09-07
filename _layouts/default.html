@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- updated for Foundation 4 -->
+<!-- http://zurb.com/playground/playground/off-canvas/offcanvas-4.html -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.name }}</title>
+  <meta name="description" content="{{ page.title }} - {{ site.name }}" />
+  <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
+
+  <!-- Mobile Specific Metas. Consider: maximum-scale=1
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS  Get: http://www.google.com/fonts/
+  http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-with-css-js-and-background-images-included
+  ================================================== -->
+  {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+  {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+
+  <link href='http://fonts.googleapis.com/css?family=Playball|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
+  <link rel="stylesheet" href="{{ relative }}css/foundation.css">
+  <link rel="stylesheet" href="{{ relative }}css/responsive-tables.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ relative }}css/offcanvas.css">
+  <link rel="stylesheet" href="{{ relative }}css/style.css">
+
+  <!-- Ah, the favicon.
+  ================================================== -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
+  Twitter: https://dev.twitter.com/docs/cards/types/summary-card
+  ============================== -->
+  <meta property="og:title" content="{{ page.title }}"/>
+  <meta property="og:site_name" content=" - {{ site.name }}"/>
+  <meta property="og:url" content=" - {{ site.url }}"/>
+  <meta property="og:description" content="{{ page.description }}"/>
+  <!--<meta property="og:image" content="http://IMAGEURL"/> -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@DaigoFuji">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <!--<meta name="twitter:image" content="http://IMAGEURL">-->
+  
+  <!-- modernizr
+  ================================================== -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+  <body id="page" class="off-canvas hide-extras">
+  <div class="container">
+
+    <header id="header" class="row">
+      <div class="large-3 columns">
+        <ul class="title-area inline-list">
+          <li class="toggle-topbar menu-icon show-for-small" ><a id="sidebarButton" href="#sidebar"><i class="icon-reorder icon-large"></i> </a></li>
+          <li class="name">
+            <h1 id="site-title" class="site-brand"><a href="/">bbclub-font</a></h1>
+          </li>
+        </ul>
+      </div>
+      <div class="large-9 columns phone-two">
+        <nav id="menu" role="navigation" class="hide-for-small">
+          <ul id="mainNav" class="button-group right">
+            {% include nav.html %}
+          </ul>
+        </nav>
+        
+      </div>
+    </header>
+
+    <div class="row">
+      <section role="main">
+
+
+
+	{{ content }}	
+
+
+
+
+
+      </section>
+
+
+
+      <!-- off canvas menu on left-->
+      <section id="sidebar" role="complementary">
+        <nav id="sideMenu" role="navigation">
+          <ul id="sideMainNav" class="side-nav">
+            {% include nav.html %}
+          </ul>
+        </nav>
+      </section>
+
+
+    </div>
+
+    <footer class="site-footer row" role="contentinfo">
+      <div class="large-12 columns">
+        <p class="quiet copyright right"> <a href="https://twitter.com/daigofuji"><i class="icon-twitter"></i> @DaigoFuji</a>, 2013.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Loading JavaScripts
+  ================================================== -->
+  <!-- Zepto (http://zeptojs.com/) is great, but I am sticking with jQuery. Sorry! -->
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="{{ relative }}js/jquery.offcanvas.js"></script>
+  <script src="{{ relative }}js/foundation.min.js"></script>
+
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="{{ relative }}js/responsive-tables.js"></script>
+  <script src="{{ relative }}js/script.js"></script>
+
+
+</body>

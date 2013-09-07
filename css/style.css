@@ -1,0 +1,96 @@
+/* 
+	style.css 
+	Written by Daigo Fujiwara (@DaigoFuji)
+	Date: PUBLISHEDDATE
+	use this: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml#CSS_Style_Rules
+	also: http://csslint.net/ (Will hurt your feelings)
+*/
+
+/* 
+	Those are already in html so no need, but just in case
+	@import url("http://fonts.googleapis.com/css?family=Lora:400,700,400italic|Stint+Ultra+Expanded");
+	@import url("css/font-awesome.min.css");
+*/
+
+/* 
+	Overriding foundation defaults.
+	Or customize it:; http://foundation.zurb.com/download.php#customizeFoundation
+*/ 
+body {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	/* font-family: 'Lora', Georgia, serif; */
+}
+/* .row {
+	max-width: 75em;
+}
+.contain-to-grid .top-bar {
+	max-width: 75em;
+}*/
+/* 
+	Default Link Styles
+	foundation link color is #2ba6cb hover #2795b6 
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playball','Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
+/*	image replacement with custom logo just uncomment this part
+	http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+
+#site-title {
+    background-image: url(../img/logo.png);
+    height: 100px; 
+    width:  600px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+ */
+
+/* space above humberger */
+.toggle-topbar {
+	padding-top:1em;
+}
+
+/* list align issue */
+
+.disc > li, .square > li, .circle > li, ol > li {
+    list-style-position: inside;
+}
+
+/* side bar */
+.side-nav li a.button {
+	color:#eee;
+}
+
+/* utility */
+.quiet {
+	color:#aaa;
+}
+
+/* footer */
+
+footer {
+	background-color: #dae4ee;
+	margin-top: 50px;
+	padding: 30px 0;
+}
+.copyright {
+	font-size: .75em; /* 12px */
+}
+
+/* 
+	Media queries. 
+	Always use min-width and declare mobile first, override with desktop 
+*/
+
+@media only screen and (min-width: 48em){
+	/* when the topbar expands */
+
+}
+
+@media only screen and (min-width: 58.75em) {
+	/* wider screen */
+
+}
