@@ -36,6 +36,14 @@ h1, h2, h3, h4, h5, h6 {
 	color:#eee;
 }
 
+/* demo */
+
+.font-demo > div {
+	max-height:250px;
+	overflow:hidden;
+	text-align: center;
+}
+
 /* utility */
 .quiet {
 	color:#aaa;
