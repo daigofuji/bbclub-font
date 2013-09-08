@@ -46,6 +46,30 @@
   speak: none;
 }
 
+/* Support font-awesome style bb-large and bb-2x, bb-3x, 4x, 5x */
+
+.bb-large:before {
+  vertical-align: -10%;
+  font-size: 1.77777777777777em;
+}
+
+.bb-2x {
+  font-size: 2em;
+}
+
+.bb-3x {
+  font-size: 3em;
+}
+
+.bb-4x {
+  font-size: 4em;
+}
+
+.bb-5x {
+  font-size: 5em;
+}
+
+
 /* AL East */
 /* Boston Red Sox */
 .bbclub-bos:before, .bbclub-BOS:before { content: "A"; }
@@ -122,4 +146,4 @@
 /* Boston Red Sox */
 .bbclub-bos-alt:before, .bbclub-BOS-alt:before { content: "e"; }
 /* MLB logo */
-.bbclub-mlb:before, .bbclub-mlb:before { content: "x"; }
+.bbclub-mlb:before, .bbclub-mlb:before { content: "z"; }
