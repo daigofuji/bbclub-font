@@ -5,9 +5,16 @@ description: This is my site. Welcome.
 keywords: baseball, logo, github pages, Jekyll, foundation 4
 ---
 
-<h1>Quickly add Baseball club logos to your website or data visualization</h1>
+<h1 class="lighter">Quickly add Baseball club logos to your website or data visualization</h1>
 
-<p>A project for <a href="http://www.ondeckcup.com/">Boton OnDeck Cup 2013</a>, by <a href="http://twitter.com/daigofuji">Daigo Fujiwara</a>, September 7-8, 2013</p>
+<div class="row">
+  <div class="large-5 columns">
+    <p>A project for <a href="http://www.ondeckcup.com/">Boton OnDeck Cup 2013</a>, by <a href="http://twitter.com/daigofuji">Daigo Fujiwara</a>, September 7-8, 2013</p>
+  </div>
+  <div class="large-7 columns">
+    <p class="right">Download: <a href="" class="button"><i class="icon-cloud-download"></i> ZIP</a> <a href="" class="button"><i class="icon-cloud-download"></i> tar.gz</a> <a href="" class="button"><i class="icon-github-alt"></i> Source Repo</a></p>
+  </div>
+</div>
 
 <h3>Problem (user story)</h3>
 
@@ -15,13 +22,7 @@ keywords: baseball, logo, github pages, Jekyll, foundation 4
 
 <h3>Solution</h3>
 
-<p><strong>**bbclub-font**</strong></p>
-
-<p>Download: <a href="" class="small button">ZIP</a> <a href="" class="small button">tar.gz</a> <a href="" class="small button">Source Repo</a></p>
-
-<p>An open source(*) icon font that contain 30 MLB team logos that can be used on websites, web app, and data visualization.</p>
-
-<p>Logos are simplified to be used as a small symbols, intended to be used as small visual icons.</p>
+<p><strong>bbclub-font</strong>: An open source(*) icon font that contain 30 MLB team logos that can be used on websites, web app, and data visualization. Logos are simplified a little, intended to be used as small visual icons.</p>
 
 <h3>Getting Started</h3>
 
@@ -32,40 +33,144 @@ keywords: baseball, logo, github pages, Jekyll, foundation 4
 	</div>
 
 	<div class="large-1 columns">
-		<p class="center"> or </p>
+		<p class="center"> <em>or</em> </p>
 	</div>
 
 	<div class="large-8 columns">
 		<p>You can use them as webfont:</p>
 		<p class="panel">Quick way: <br>
 			Include this code on the page<br/>
-			<code></code> </p>
+			<code>&lt;link rel="stylesheet" href="http://daigofuji.github.io/bbclub-font/css/bbclub-font.css"&gt;</code> </p>
 		
-		<p>or</p>
+		<p><em>or</em></p>
 
-		<p class="panel">Download the font folder and bbclub-font.css. Include  </p>
-
+		<p class="panel">Download the <code>font</code> folder and <code>bbclub-font.css</code>. Include it on your website (make sure your css points to the right relative folder.) </p>
 
 	</div>
 
 </div> <!-- /row -->
 
-
-
-
-<p><em>or</em></p>
-
-<p></p>
-
-
-
-
-
-
 <h3>Usage</h3>
 <p>
-Put <code class="large">&lt;i class="bbclub-<em>team abbr<em>"&gt;&lt;/i&gt;</code> to display a logo in place. 
+Put <code class="large">&lt;i class="bbclub-<em><strong>team abbr</strong></em>"&gt;&lt;/i&gt;</code> to display a logo in place. 
 </p>
+
+<div class="row"> 
+
+  <div class="large-6 columns">
+<table><tbody>
+
+  <tr>
+  <th>Team</th>
+  <th>logo</th>
+  <th>Accepted abbreviation</th>
+  <th>letter</th>
+ </tr>
+
+ <tr>
+  <td colspan="4"><em>AL East</em></td>
+ </tr>
+ <tr>
+  <td>Boston Red Sox</td>
+  <td><i class="bbclub-bos"></i></td>
+  <td>bos, BOS</td>
+  <td>A</td>
+ </tr>
+ <tr>
+  <td>New York Yankees*</td>
+  <td><i class="bbclub-nya"></i></td>
+  <td>nya, NYA, nyy, NYY</td>
+  <td>B</td>
+ </tr>
+ <tr>
+  <td>Tampa Bay Rays*</td>
+  <td><i class="bbclub-tba"></i></td>
+  <td>tba, TBA, tb, TB</td>
+  <td>C</td>
+ </tr>
+ <tr>
+  <td>Baltimore Orioles</td>
+  <td><i class="bbclub-bal"></i></td>
+  <td>bal, BAL</td>
+  <td>D</td>
+ </tr>
+ <tr>
+  <td>Toronto Blue Jays</td>
+  <td><i class="bbclub-tor"></i></td>
+  <td>tor, TOR</td>
+  <td>E</td>
+ </tr>
+ <tr>
+  <td colspan="4"><em>AL Central</em></td>
+ </tr>
+ <tr>
+  <td>Detroit Tigers</td>
+  <td><i class="bbclub-det"></i></td>
+  <td>det, DET</td>
+  <td>F</td>
+ </tr>
+ <tr>
+  <td>Cleveland Indians</td>
+  <td><i class="bbclub-cle"></i></td>
+  <td>cle, CLE</td>
+  <td>G</td>
+ </tr>
+ <tr>
+  <td>Kansas City Royals*</td>
+  <td><i class="bbclub-kca"></i></td>
+  <td>kca, KCA, kc, KC</td>
+  <td>H</td>
+ </tr>
+ <tr>
+  <td>Minnesota Twins</td>
+  <td><i class="bbclub-min"></i></td>
+  <td>min, MIN</td>
+  <td>I</td>
+ </tr>
+ <tr>
+  <td>Chicago White Sox*</td>
+  <td><i class="bbclub-cha"></i></td>
+  <td>cha, CHA, cws, CWS</td>
+  <td>J</td>
+ </tr>
+ <tr>
+  <td colspan="4"><em>AL West</em></td>
+ </tr>
+ <tr>
+  <td>Oakland Athletics</td>
+  <td><i class="bbclub-oak"></i></td>
+  <td>oak, OAK</td>
+  <td>K</td>
+ </tr>
+ <tr>
+  <td>Texas Rangers</td>
+  <td><i class="bbclub-tex"></i></td>
+  <td>tex, TEX</td>
+  <td>L</td>
+ </tr>
+ <tr>
+  <td>Los Angeles Angels*</td>
+  <td><i class="bbclub-ana"></i></td>
+  <td>ana, ANA, laa, LAA</td>
+  <td>M</td>
+ </tr>
+ <tr>
+  <td>Seattle Mariners</td>
+  <td><i class="bbclub-sea"></i></td>
+  <td>sea, SEA</td>
+  <td>N</td>
+ </tr>
+ <tr>
+  <td>Houston Astros</td>
+  <td><i class="bbclub-hou"></i></td>
+  <td>hou, HOU</td>
+  <td>O</td>
+ </tr>
+</tbody>
+ </table>
+</div>
+
+<div class="large-6 columns">
 
 <table><tbody>
  <tr>
@@ -74,215 +179,121 @@ Put <code class="large">&lt;i class="bbclub-<em>team abbr<em>"&gt;&lt;/i&gt;</co
   <th>Accepted abbreviation</th>
   <th>letter</th>
  </tr>
- <tr>
-  <td colspan="4">AL East</td>
+  <tr>
+  <td colspan="4"><em>NL East</em></td>
  </tr>
- <tr>
-  <td>Boston Red Sox</td>
-  <td>A</td>
-  <td>bos, BOS</td>
-  <td>A</td>
- </tr>
- <tr>
-  <td>New York Yankees*</td>
-  <td>B</td>
-  <td>nya, NYA, nyy, NYY</td>
-  <td>B</td>
- </tr>
- <tr>
-  <td>Tampa Bay Rays*</td>
-  <td>C</td>
-  <td>tba, TBA, tb, TB</td>
-  <td>C</td>
- </tr>
- <tr>
-  <td>Baltimore Orioles</td>
-  <td>D</td>
-  <td>bal, BAL</td>
-  <td>D</td>
- </tr>
- <tr>
-  <td>Toronto Blue Jays</td>
-  <td>E</td>
-  <td>tor, TOR</td>
-  <td>E</td>
- </tr>
- <tr>
-  <td colspan="4">AL Central</td>
- </tr>
- <tr>
-  <td>Detroit Tigers</td>
-  <td>F</td>
-  <td>det, DET</td>
-  <td>F</td>
- </tr>
- <tr>
-  <td>Cleveland Indians</td>
-  <td>G</td>
-  <td>cle, CLE</td>
-  <td>G</td>
- </tr>
- <tr>
-  <td>Kansas City Royals*</td>
-  <td>H</td>
-  <td>kca, KCA, kc, KC</td>
-  <td>H</td>
- </tr>
- <tr>
-  <td>Minnesota Twins</td>
-  <td>I</td>
-  <td>min, MIN</td>
-  <td>I</td>
- </tr>
- <tr>
-  <td>Chicago White Sox*</td>
-  <td>J</td>
-  <td>cha, CHA, cws, CWS</td>
-  <td>J</td>
- </tr>
- <tr>
-  <td colspan="4">AL West</td>
- </tr>
- <tr>
-  <td>Oakland Athletics</td>
-  <td>K</td>
-  <td>oak, OAK</td>
-  <td>K</td>
- </tr>
- <tr>
-  <td>Texas Rangers</td>
-  <td>L</td>
-  <td>tex, TEX</td>
-  <td>L</td>
- </tr>
- <tr>
-  <td>Los Angeles Angels*</td>
-  <td>M</td>
-  <td>ana, ANA, laa, LAA</td>
-  <td>M</td>
- </tr>
- <tr>
-  <td>Seattle Mariners</td>
-  <td>N</td>
-  <td>sea, SEA</td>
-  <td>N</td>
- </tr>
- <tr>
-  <td>Houston Astros</td>
-  <td>O</td>
-  <td>hou, HOU</td>
-  <td>O</td>
- </tr>
- <tr>
-  <td colspan="4">NL East</td>
- </tr>
- <tr>
+
+  <tr>
   <td>Atlanta Braves</td>
-  <td>P</td>
+  <td><i class="bbclub-atl"></i></td>
   <td>atl, ATL</td>
   <td>P</td>
  </tr>
  <tr>
   <td>Washington Nationals*</td>
-  <td>Q</td>
+  <td><i class="bbclub-was"></i></td>
   <td>was, WAS, wsh, WSH</td>
   <td>Q</td>
  </tr>
  <tr>
   <td>Philadelphia Phillies</td>
-  <td>R</td>
+  <td><i class="bbclub-phi"></i></td>
   <td>phi, PHI</td>
   <td>R</td>
  </tr>
  <tr>
   <td>New York Mets*</td>
-  <td>S</td>
+  <td><i class="bbclub-nyn"></i></td>
   <td>nyn, NYN, nym, NYM</td>
   <td>S</td>
  </tr>
  <tr>
   <td>Miami Marlins</td>
-  <td>T</td>
+  <td><i class="bbclub-mia"></i></td>
   <td>mia, MIA</td>
   <td>T</td>
  </tr>
  <tr>
-  <td colspan="4">NL Central</td>
+  <td colspan="4"><em>NL Central</em></td>
  </tr>
  <tr>
   <td>Pittsburgh Pirates</td>
-  <td>U</td>
+  <td><i class="bbclub-pit"></i></td>
   <td>pit, PIT</td>
   <td>U</td>
  </tr>
  <tr>
   <td>St. Louis Cardinals*</td>
-  <td>V</td>
+  <td><i class="bbclub-sln"></i></td>
   <td>sln, SLN, stl, STL</td>
   <td>V</td>
  </tr>
  <tr>
   <td>Cincinnati Reds</td>
-  <td>W</td>
+  <td><i class="bbclub-cin"></i></td>
   <td>cin, CIN</td>
   <td>W</td>
  </tr>
  <tr>
   <td>Chicago Cubs</td>
-  <td>X</td>
+  <td><i class="bbclub-chn"></i></td>
   <td>chn, CHN, chc, CHC</td>
   <td>X</td>
  </tr>
  <tr>
   <td>Milwaukee Brewers</td>
-  <td>Y</td>
+  <td><i class="bbclub-mil"></i></td>
   <td>mil, MIL</td>
   <td>Y</td>
  </tr>
  <tr>
-  <td colspan="4">NL West</td>
+  <td colspan="4"><em>NL West</em></td>
  </tr>
  <tr>
   <td>Los Angeles Dodgers*</td>
-  <td>Z</td>
-  <td>lan, LAN, la, LA, lad, LA</td>
+  <td><i class="bbclub-lan"></i></td>
+  <td>lan, LAN, la, LA, lad, LAD</td>
   <td>Z</td>
  </tr>
  <tr>
   <td>Arizona Diamondbacks</td>
-  <td>a</td>
+  <td><i class="bbclub-ari"></i></td>
   <td>ari, ARI</td>
   <td>a</td>
  </tr>
  <tr>
   <td>Colorado Rockies</td>
-  <td>b</td>
+  <td><i class="bbclub-col"></i></td>
   <td>col, COL</td>
   <td>b</td>
  </tr>
  <tr>
   <td>San Francisco Giants*</td>
-  <td>c</td>
+  <td><i class="bbclub-sfn"></i></td>
   <td>sfn, SFN, sf, SF</td>
   <td>c</td>
  </tr>
  <tr>
   <td>San Diego Padres*</td>
-  <td>d</td>
+  <td><i class="bbclub-sdn"></i></td>
   <td>sdn, SDN, sd, SD</td>
   <td>d</td>
  </tr>
  <tr>
-  <td colspan="4">Alternative logo</td>
+  <td colspan="4"><em>Alternative logo</em></td>
  </tr>
  <tr>
   <td>Boston Red Sox</td>
-  <td>e</td>
+  <td><i class="bbclub-bos-alt"></i></td>
   <td>bos-alt, BOS-alt</td>
   <td>e</td>
  </tr>
 </tbody></table>
 
+</div>
+</div> <!-- /row -->
+<p>NOTE: White Sox Royals, Angels, Dodgers, Mets, Yankees, Padres, Giants, Cardinals, Rays and Nationals have team abbrebiation aliases.
+</p>
 
 <h3>Licence</h3>
 <p>
