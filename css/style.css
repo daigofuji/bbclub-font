@@ -11,7 +11,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playball','Helvetica Neue', Helvetica, Arial, sans-serif; 
 }
-
+.site-brand {
+	text-shadow:
+    -2px -2px 0 #eee,
+    2px -2px 0 #eee,
+    -2px 2px 0 #eee,
+    2px 2px 0 #eee;
+}
 .lighter {
 	color: #aaa;
 }
