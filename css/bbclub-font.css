@@ -1,0 +1,132 @@
+/* 
+	style.css 
+	Written by Daigo Fujiwara (@DaigoFuji)
+	Date: September 2013
+	Part of bbclub-font project
+	homepage: http://daigofuji.github.io/bbclub-font/
+	github project page: 
+*/
+
+@font-face {
+  font-family: 'bbclub-font';
+  src: url('../font/bbclub-font.eot?#') format('eot'), 
+       url('../font/bbclub-font.woff') format('woff'), 
+       url('../font/bbclub-font.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="bbclub-"],
+[class*=" bbclub-"] {
+  font-family: bbclub-font;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+  /* Bootstrap 2.0 sprites.less reset */
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+[class^="bbclub-"]:before,
+[class*=" bbclub-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+/* AL East */
+/* Boston Red Sox */
+.bbclub-bos:before, .bbclub-BOS:before { content: "A"; }
+/* New York Yankees* */
+.bbclub-nya:before, .bbclub-NYA:before, .bbclub-nyy:before, .bbclub-NYY:before { content: "B"; }
+/* Tampa Bay Rays* */
+.bbclub-tba:before, .bbclub-TBA:before, .bbclub-tb:before, .bbclub-TB:before { content: "C"; }
+/* Baltimore Orioles */
+.bbclub-bal:before, .bbclub-BAL:before { content: "D"; }
+/* Toronto Blue Jays */
+.bbclub-tor:before, .bbclub-TOR:before { content: "E"; }
+
+/* AL Central */
+/* Detroit Tigers */
+.bbclub-det:before, .bbclub-DET:before { content: "F"; }
+/* Cleveland Indians */
+.bbclub-cle:before, .bbclub-CLE:before { content: "G"; }
+/* Kansas City Royals* */
+.bbclub-kca:before, .bbclub-KCA:before, .bbclub-kc:before, .bbclub-KC:before { content: "H"; }
+/* Minnesota Twins */
+.bbclub-min:before, .bbclub-MIN:before { content: "I"; }
+/* Chicago White Sox* */
+.bbclub-cha:before, .bbclub-CHA:before, .bbclub-cws:before, .bbclub-CWS:before { content: "J"; }
+
+/* AL West */
+/* Oakland Athletics */
+.bbclub-oak:before, .bbclub-OAK:before { content: "K"; }
+/* Texas Rangers */
+.bbclub-tex:before, .bbclub-TEX:before { content: "L"; }
+/* Los Angeles Angels* */
+.bbclub-ana:before, .bbclub-ANA:before, .bbclub-laa:before, .bbclub-LAA:before { content: "M"; }
+/* Seattle Mariners */
+.bbclub-sea:before, .bbclub-SEA:before { content: "N"; }
+/* Houston Astros */
+.bbclub-hou:before, .bbclub-HOU:before { content: "O"; }
+
+/* NL East */
+/* Atlanta Braves */
+.bbclub-atl:before, .bbclub-ATL:before { content: "P"; }
+/* Washington Nationals* */
+.bbclub-was:before, .bbclub-WAS:before, .bbclub-wsh:before, .bbclub-WSH:before { content: "Q"; }
+/* Philadelphia Phillies */
+.bbclub-phi:before, .bbclub-PHI:before { content: "R"; }
+/* New York Mets* */
+.bbclub-nyn:before, .bbclub-NYN:before, .bbclub-nym:before, .bbclub-NYM:before { content: "S"; }
+/* Miami Marlins */
+.bbclub-mia:before, .bbclub-MIA:before { content: "T"; }
+
+/* NL Central */
+/* Pittsburgh Pirates */
+.bbclub-pit:before, .bbclub-PIT:before { content: "U"; }
+/* St. Louis Cardinals* */
+.bbclub-sln:before, .bbclub-SLN:before, .bbclub-stl:before, .bbclub-STL:before { content: "V"; }
+/* Cincinnati Reds */
+.bbclub-cin:before, .bbclub-CIN:before { content: "W"; }
+/* Chicago Cubs */
+.bbclub-chn:before, .bbclub-CHN:before, .bbclub-chc:before, .bbclub-CHC:before { content: "X"; }
+/* Milwaukee Brewers */
+.bbclub-mil:before, .bbclub-MIL:before { content: "Y"; }
+
+/* NL West */
+/* Los Angeles Dodgers* */
+.bbclub-lan:before, .bbclub-LAN:before, .bbclub-la:before, .bbclub-LA:before, .bbclub-lad:before, .bbclub-LAD:before { content: "Z"; }
+/* Arizona Diamondbacks */
+.bbclub-ari:before, .bbclub-ARI:before { content: "a"; }
+/* Colorado Rockies */
+.bbclub-col:before, .bbclub-COL:before { content: "b"; }
+/* San Francisco Giants* */
+.bbclub-sfn:before, .bbclub-SFN:before, .bbclub-sf:before, .bbclub-SF:before { content: "c"; }
+/* San Diego Padres* */
+.bbclub-sdn:before, .bbclub-SDN:before, .bbclub-sd:before, .bbclub-SD:before { content: "d"; }
+
+
+
+/* Alternative logo */
+/* Boston Red Sox */
+.bbclub-bos-alt:before, .bbclub-BOS-alt:before { content: "e"; }
+
+
+
+
+
+/* NOTE: White Sox Royals, Angels, Dodgers, Mets, Yankees, Padres, Giants, Cardinals, Rays and Nationals have team abbrebiation aliases. */
+
+
+
+
+
