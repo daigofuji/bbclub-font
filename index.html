@@ -1,11 +1,11 @@
 ---
 layout: default
-title: bbclub-font - Quickly add Baseball club logos to your website or data visualization
-description: This is my site. Welcome.
+title: Baseball club logos as a icon font set
+description: Quickly add Baseball club logos to your website or data visualization. Resolution dependent, retina ready. 
 keywords: baseball, logo, github pages, Jekyll, foundation 4
 ---
 
-<h1 class="lighter">Quickly add Baseball club logos to your website or data visualization</h1>
+<h1 class="lighter">Quickly add Baseball club logos to your website or data visualization <span class="hedsmall">(For example, this webpage does not use <em>any</em> images)</span></h1>
 
 
 <div class="font-demo row">
@@ -26,28 +26,33 @@ keywords: baseball, logo, github pages, Jekyll, foundation 4
 <div class="row">
   <div class="large-5 columns">
     <p>A project for <a href="http://www.ondeckcup.com/">Boton OnDeck Cup 2013</a>, by <a href="http://twitter.com/daigofuji">Daigo Fujiwara</a>, September 7-8, 2013</p>
+    <p>This project won <a href="http://ondeckcupbos.challengepost.com/">second prize</a>!</p>
   </div>
   <div class="large-7 columns">
-    <p class="">Download: <a href="https://github.com/daigofuji/bbclub-font/archive/master.zip" class="button"><i class="icon-cloud-download"></i> ZIP</a> <!--<a href="" class="button"><i class="icon-cloud-download"></i> tar.gz</a>--> <a href="https://github.com/daigofuji/bbclub-font/tree/gh-pages" class="button"><i class="icon-github-alt"></i> Source Repo</a></p>
+    <p class="panel">Download it!: <a href="https://github.com/daigofuji/bbclub-font/archive/master.zip" class="button"><i class="icon-cloud-download"></i> ZIP</a> <!--<a href="" class="button"><i class="icon-cloud-download"></i> tar.gz</a>--> <a href="https://github.com/daigofuji/bbclub-font/tree/gh-pages" class="button"><i class="icon-github-alt"></i> Source Repo</a></p>
   </div>
 </div>
 
 <h3>Problem (user story)</h3>
 
-<p>As a front-end developer, I want a easy way to put logos of MLB teams to the website/visualization so that I can easily enhance visuals on my database driven site/data visualization without much fuss</p>
+<blockquote>As a front-end developer, I want a easy way to put logos of MLB teams to the website/visualization, so that I can easily enhance visuals on my database driven contents without much fuss.</blockquote>
 
 <h3>Solution</h3>
 
-<p><strong>bbclub-font</strong>: An open source(*) icon font that contain 30 MLB team logos that can be used on websites, web app, and data visualization. Logos are simplified a little, intended to be used as small visual icons. Learn about <a href="http://css-tricks.com/examples/IconFont/">why icon fonts are awesome</a></p>
-<p class="quiet">* See License for details.</p>
+<blockquote><strong>bbclub-font</strong>: An open source(*) icon font that contain 30 MLB team logos that can be used on websites, web app, and data visualization. Logos are simplified a little, intended to be used as small visual icons. Learn about <a href="http://css-tricks.com/examples/IconFont/">why icon fonts are awesome</a>. This project is very much inspired by <a href="http://propublica.github.io/stateface/">StateFace</a> and <a href="http://fortawesome.github.io/Font-Awesome/">Font-Awesome</a>. 
+<span class="quiet">* See <a href="#license">License</a> for details.</span></blockquote>
 
 
-<h2>Getting Started</h2>
+<h2 id="getting-started">Getting Started</h2>
 
 <div class="row"> 
 
 	<div class="large-3 columns">
 		<p class="panel"><a href="https://github.com/daigofuji/bbclub-font/blob/gh-pages/font/bbclub-font-Regular.otf?raw=true">Download the OTF font</a>, install on your machine and start using it in programs like Illustartor, Photoshop, MS Word, PowerPoint etc.</p>
+    <ul>
+      <li><a href="http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts">How to install a font on a Windows machine</a></li>
+      <li><a href="http://support.apple.com/kb/HT2509">How to install a font on a Mac</a></li>
+    </ul>
 	</div>
 
 	<div class="large-1 columns">
@@ -57,7 +62,7 @@ keywords: baseball, logo, github pages, Jekyll, foundation 4
 	<div class="large-8 columns">
 		<p>You can use them as webfont:</p>
 		<p class="panel">Quick way: Include this code on your page<br/>
-			<code>&lt;link rel="stylesheet" href="http://daigofuji.github.io/bbclub-font/css/bbclub-font.css"&gt;</code> <br /><a href="http://codepen.io/daigofuji/pen/JviqL">Quick Demo</a></p>
+			<code>&lt;link rel="stylesheet" href="http://daigofuji.github.io/bbclub-font/css/bbclub-font.css"&gt;</code> <br /></p>
 		
 		<p><em>or</em></p>
 
@@ -67,123 +72,130 @@ keywords: baseball, logo, github pages, Jekyll, foundation 4
 
 </div> <!-- /row -->
 
-<h3>Usage</h3>
+<h2 id="demo">Demo</h2>
+<ul>
+  <li><a href="http://codepen.io/daigofuji/pen/JviqL">Quick Demo 1</a></li>
+  <li><a href="http://codepen.io/daigofuji/pen/yfdEw">Quick Demo: CSS effects</a></li>
+  <li><a href="https://github.com/daigofuji/bbclub-font/wiki/Sites-using-bbclub-font">bbclub-font in the wild! (please add your site)</a></li>
+</ul>
+
+<h2 id="usage">Usage</h2>
 <p>
-Put <code class="large">&lt;i class="bbclub-<em><strong>TEAM ABBR</strong></em>"&gt;&lt;/i&gt;</code> to display a logo in place. 
+Put <code class="large">&lt;i class="bbclub-<em><strong>TEAM ABBR</strong></em>"&gt;&lt;/i&gt;</code> to display a logo in place. If you think of other abbrebiation that should be supported, please <a href="https://github.com/daigofuji/bbclub-font/issues">let me know</a>!
 </p>
 
 <div class="row"> 
 
   <div class="large-6 columns">
-<table><tbody>
+    <table><tbody>
 
-  <tr>
-  <th>Team</th>
-  <th>logo</th>
-  <th>Accepted abbreviation</th>
-  <th>letter</th>
- </tr>
+      <tr>
+      <th>Team</th>
+      <th>logo</th>
+      <th>Accepted abbreviation</th>
+      <th>letter</th>
+     </tr>
 
- <tr>
-  <td colspan="4"><em>AL East</em></td>
- </tr>
- <tr>
-  <td>Boston Red Sox</td>
-  <td><i class="bbclub-bos"></i></td>
-  <td>bos, BOS</td>
-  <td>A</td>
- </tr>
- <tr>
-  <td>New York Yankees*</td>
-  <td><i class="bbclub-nya"></i></td>
-  <td>nya, NYA, nyy, NYY</td>
-  <td>B</td>
- </tr>
- <tr>
-  <td>Tampa Bay Rays*</td>
-  <td><i class="bbclub-tba"></i></td>
-  <td>tba, TBA, tb, TB</td>
-  <td>C</td>
- </tr>
- <tr>
-  <td>Baltimore Orioles</td>
-  <td><i class="bbclub-bal"></i></td>
-  <td>bal, BAL</td>
-  <td>D</td>
- </tr>
- <tr>
-  <td>Toronto Blue Jays</td>
-  <td><i class="bbclub-tor"></i></td>
-  <td>tor, TOR</td>
-  <td>E</td>
- </tr>
- <tr>
-  <td colspan="4"><em>AL Central</em></td>
- </tr>
- <tr>
-  <td>Detroit Tigers</td>
-  <td><i class="bbclub-det"></i></td>
-  <td>det, DET</td>
-  <td>F</td>
- </tr>
- <tr>
-  <td>Cleveland Indians</td>
-  <td><i class="bbclub-cle"></i></td>
-  <td>cle, CLE</td>
-  <td>G</td>
- </tr>
- <tr>
-  <td>Kansas City Royals*</td>
-  <td><i class="bbclub-kca"></i></td>
-  <td>kca, KCA, kc, KC</td>
-  <td>H</td>
- </tr>
- <tr>
-  <td>Minnesota Twins</td>
-  <td><i class="bbclub-min"></i></td>
-  <td>min, MIN</td>
-  <td>I</td>
- </tr>
- <tr>
-  <td>Chicago White Sox*</td>
-  <td><i class="bbclub-cha"></i></td>
-  <td>cha, CHA, cws, CWS</td>
-  <td>J</td>
- </tr>
- <tr>
-  <td colspan="4"><em>AL West</em></td>
- </tr>
- <tr>
-  <td>Oakland Athletics</td>
-  <td><i class="bbclub-oak"></i></td>
-  <td>oak, OAK</td>
-  <td>K</td>
- </tr>
- <tr>
-  <td>Texas Rangers</td>
-  <td><i class="bbclub-tex"></i></td>
-  <td>tex, TEX</td>
-  <td>L</td>
- </tr>
- <tr>
-  <td>Los Angeles Angels*</td>
-  <td><i class="bbclub-ana"></i></td>
-  <td>ana, ANA, laa, LAA</td>
-  <td>M</td>
- </tr>
- <tr>
-  <td>Seattle Mariners</td>
-  <td><i class="bbclub-sea"></i></td>
-  <td>sea, SEA</td>
-  <td>N</td>
- </tr>
- <tr>
-  <td>Houston Astros</td>
-  <td><i class="bbclub-hou"></i></td>
-  <td>hou, HOU</td>
-  <td>O</td>
- </tr>
-</tbody>
+     <tr>
+      <td colspan="4"><em>AL East</em></td>
+     </tr>
+     <tr>
+      <td>Boston Red Sox</td>
+      <td><i class="bbclub-bos"></i></td>
+      <td>bos, BOS</td>
+      <td>A</td>
+     </tr>
+     <tr>
+      <td>New York Yankees*</td>
+      <td><i class="bbclub-nya"></i></td>
+      <td>nya, NYA, nyy, NYY</td>
+      <td>B</td>
+     </tr>
+     <tr>
+      <td>Tampa Bay Rays*</td>
+      <td><i class="bbclub-tba"></i></td>
+      <td>tba, TBA, tb, TB</td>
+      <td>C</td>
+     </tr>
+     <tr>
+      <td>Baltimore Orioles</td>
+      <td><i class="bbclub-bal"></i></td>
+      <td>bal, BAL</td>
+      <td>D</td>
+     </tr>
+     <tr>
+      <td>Toronto Blue Jays</td>
+      <td><i class="bbclub-tor"></i></td>
+      <td>tor, TOR</td>
+      <td>E</td>
+     </tr>
+     <tr>
+      <td colspan="4"><em>AL Central</em></td>
+     </tr>
+     <tr>
+      <td>Detroit Tigers</td>
+      <td><i class="bbclub-det"></i></td>
+      <td>det, DET</td>
+      <td>F</td>
+     </tr>
+     <tr>
+      <td>Cleveland Indians</td>
+      <td><i class="bbclub-cle"></i></td>
+      <td>cle, CLE</td>
+      <td>G</td>
+     </tr>
+     <tr>
+      <td>Kansas City Royals*</td>
+      <td><i class="bbclub-kca"></i></td>
+      <td>kca, KCA, kc, KC</td>
+      <td>H</td>
+     </tr>
+     <tr>
+      <td>Minnesota Twins</td>
+      <td><i class="bbclub-min"></i></td>
+      <td>min, MIN</td>
+      <td>I</td>
+     </tr>
+     <tr>
+      <td>Chicago White Sox*</td>
+      <td><i class="bbclub-cha"></i></td>
+      <td>cha, CHA, cws, CWS</td>
+      <td>J</td>
+     </tr>
+     <tr>
+      <td colspan="4"><em>AL West</em></td>
+     </tr>
+     <tr>
+      <td>Oakland Athletics</td>
+      <td><i class="bbclub-oak"></i></td>
+      <td>oak, OAK</td>
+      <td>K</td>
+     </tr>
+     <tr>
+      <td>Texas Rangers</td>
+      <td><i class="bbclub-tex"></i></td>
+      <td>tex, TEX</td>
+      <td>L</td>
+     </tr>
+     <tr>
+      <td>Los Angeles Angels*</td>
+      <td><i class="bbclub-ana"></i></td>
+      <td>ana, ANA, laa, LAA</td>
+      <td>M</td>
+     </tr>
+     <tr>
+      <td>Seattle Mariners</td>
+      <td><i class="bbclub-sea"></i></td>
+      <td>sea, SEA</td>
+      <td>N</td>
+     </tr>
+     <tr>
+      <td>Houston Astros</td>
+      <td><i class="bbclub-hou"></i></td>
+      <td>hou, HOU</td>
+      <td>O</td>
+     </tr>
+    </tbody>
  </table>
 </div>
 
@@ -345,17 +357,17 @@ Put <code class="large">&lt;i class="bbclub-<em><strong>TEAM ABBR</strong></em>"
   </div>
 </div>
 
-<p>NOTE: White Sox, Royals, Angels, Dodgers, Mets, Yankees, Padres, Giants, Cardinals, Rays and Nationals have team abbrebiation aliases.
-</p>
+<blockquote>NOTE: White Sox, Royals, Angels, Dodgers, Mets, Yankees, Padres, Giants, Cardinals, Rays and Nationals have team abbrebiation aliases.
+</blockquote>
 
 
 
-<h3>License</h3>
+<h2 id="license">License</h2>
 <p>
-Font is licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> and css and html codes are licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>, but rights to team logos belongs to the MLB and its teams, please use according to their terms.
-</p>
+Font is licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a> and css and html codes are licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>, but <strong>rights to team logos belongs to the MLB and its teams, please use according to their terms</strong>.</p>
 <p><strong>DISCLAIMER:</strong> bbclub-font is a tool created by a passionate baseball fan (and contributors) and is not endorsed by or affiliated with Major League Baseball or its teams.</p>
 
+<p>See also: definition of a <a href="http://en.wikipedia.org/wiki/Fair_use">Fair Use</a>.</p>
 <!--
 <p>You can see all <a href="https://github.com/daigofuji/jekyll-foundation-4-starter/tree/gh-pages"><i class="icon-github"></i> my sources here</a>. I created this for my personal use, but if you'd like to use it, please feel free. </p>
 
