@@ -25,21 +25,21 @@ keywords: baseball, logo, github pages, Jekyll, foundation 4
 
 <div class="row">
   <div class="large-5 columns">
-    <p>A project for <a href="http://www.ondeckcup.com/">Boton OnDeck Cup 2013</a>, by <a href="http://twitter.com/daigofuji">Daigo Fujiwara</a>, September 7-8, 2013</p>
-    <p>This project won <a href="http://ondeckcupbos.challengepost.com/">second prize</a>!</p>
+    <p>A project built for <a href="http://www.ondeckcup.com/">Boton OnDeck Cup 2013</a>, by <a href="http://twitter.com/daigofuji">Daigo Fujiwara</a>, September 7-8, 2013.</p>
+    <p>Won the <a href="http://ondeckcupbos.challengepost.com/">second prize</a>. Read my <a href="http://daigo.org/2013/09/introducing-bbclub-font-easily-add-baseball-club-logos-to-your-site-app/">blog post</a>. </p>
   </div>
   <div class="large-7 columns">
-    <p class="panel">Download it!: <a href="https://github.com/daigofuji/bbclub-font/archive/master.zip" class="button"><i class="icon-cloud-download"></i> ZIP</a> <!--<a href="" class="button"><i class="icon-cloud-download"></i> tar.gz</a>--> <a href="https://github.com/daigofuji/bbclub-font/tree/gh-pages" class="button"><i class="icon-github-alt"></i> Source Repo</a></p>
+    <p class="panel"><strong>Download it!:</strong><br/><a href="https://github.com/daigofuji/bbclub-font/blob/gh-pages/font/bbclub-font-Regular.otf?raw=true" class="button"><i class="icon-cloud-download"></i> Font (.otf)</a>  <a href="https://github.com/daigofuji/bbclub-font/archive/master.zip" class="button"><i class="icon-cloud-download"></i> ZIP</a> <!--<a href="" class="button"><i class="icon-cloud-download"></i> tar.gz</a>--> <a href="https://github.com/daigofuji/bbclub-font/tree/gh-pages" class="button"><i class="icon-github-alt"></i> Source Repo</a></p>
   </div>
 </div>
 
 <h3>Problem (user story)</h3>
 
-<blockquote>As a front-end developer, I want a easy way to put logos of MLB teams to the website/visualization, so that I can easily enhance visuals on my database driven contents without much fuss.</blockquote>
+<blockquote>As a front-end developer, I want a easy way to put logos of MLB clubs to websites/data visualizations, so that I can easily enhance visuals on my database driven contents without much fuss.</blockquote>
 
 <h3>Solution</h3>
 
-<blockquote><strong>bbclub-font</strong>: An open source(*) icon font that contain 30 MLB team logos that can be used on websites, web app, and data visualization. Logos are simplified a little, intended to be used as small visual icons. Learn about <a href="http://css-tricks.com/examples/IconFont/">why icon fonts are awesome</a>. This project is very much inspired by <a href="http://propublica.github.io/stateface/">StateFace</a> and <a href="http://fortawesome.github.io/Font-Awesome/">Font-Awesome</a>. 
+<blockquote><strong>bbclub-font</strong>: An open source(*) icon font that contain 30 MLB team logos that can be used on websites, web apps, and data visualizations. Logos are simplified a little, intended to be used as small visual icons. Learn about <a href="http://css-tricks.com/examples/IconFont/">why icon fonts are awesome</a> (by Chris Coyer). This project is very much inspired by <a href="http://propublica.github.io/stateface/">StateFace</a> and <a href="http://fortawesome.github.io/Font-Awesome/">Font-Awesome</a>. 
 <span class="quiet">* See <a href="#license">License</a> for details.</span></blockquote>
 
 
@@ -48,11 +48,13 @@ keywords: baseball, logo, github pages, Jekyll, foundation 4
 <div class="row"> 
 
 	<div class="large-3 columns">
-		<p class="panel"><a href="https://github.com/daigofuji/bbclub-font/blob/gh-pages/font/bbclub-font-Regular.otf?raw=true">Download the OTF font</a>, install on your machine and start using it in programs like Illustartor, Photoshop, MS Word, PowerPoint etc.</p>
-    <ul>
-      <li><a href="http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts">How to install a font on a Windows machine</a></li>
-      <li><a href="http://support.apple.com/kb/HT2509">How to install a font on a Mac</a></li>
-    </ul>
+    <div class="panel">
+  		<p><a href="https://github.com/daigofuji/bbclub-font/blob/gh-pages/font/bbclub-font-Regular.otf">Download the OTF font</a>, install on your machine and start using it in programs like Illustartor, Photoshop, MS Word, PowerPoint etc.</p>
+      <ul class="pretty square">
+        <li><a href="http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts">How to install a font on a Windows machine</a></li>
+        <li><a href="http://support.apple.com/kb/HT2509">How to install a font on a Mac</a></li>
+      </ul>
+    </div>
 	</div>
 
 	<div class="large-1 columns">
@@ -61,27 +63,36 @@ keywords: baseball, logo, github pages, Jekyll, foundation 4
 
 	<div class="large-8 columns">
 		<p>You can use them as webfont:</p>
-		<p class="panel">Quick way: Include this code on your page<br/>
+		<p class="panel">Quick way: Simply include this code on your webpage<br/>
 			<code>&lt;link rel="stylesheet" href="http://daigofuji.github.io/bbclub-font/css/bbclub-font.css"&gt;</code> <br /></p>
 		
 		<p><em>or</em></p>
 
-		<p class="panel">Download the <code>font</code> folder and <code><a href="http://daigofuji.github.io/bbclub-font/css/bbclub-font.css">bbclub-font.css</a></code>. Include it on your website (Make sure your css points to the right relative "font" folder.) </p>
+		<div class="panel"><p>Download the <code>font</code> folder and <code><a href="http://daigofuji.github.io/bbclub-font/css/bbclub-font.css">bbclub-font.css</a></code>. Include it to your website (keep the below structure, or make sure your css points to the right relative "font" folder (lines 13-17)).</p>
+      <pre>+--font/
+|   +--bbclub-font-regular-webfont.ttf
+|   +--bbclub-font-regular-webfont.eot
+|   +--bbclub-font-regular-webfont.woff
+|   \--bbclub-font-regular-webfont.svg
+|
++--css/
+    \--bbclub-font.css</pre>
+    </div>
 
 	</div>
 
 </div> <!-- /row -->
 
-<h2 id="demo">Demo</h2>
-<ul>
-  <li><a href="http://codepen.io/daigofuji/pen/JviqL">Quick Demo 1</a></li>
-  <li><a href="http://codepen.io/daigofuji/pen/yfdEw">Quick Demo: CSS effects</a></li>
-  <li><a href="https://github.com/daigofuji/bbclub-font/wiki/Sites-using-bbclub-font">bbclub-font in the wild! (please add your site)</a></li>
+<h2 id="demo">Demos (not memos)</h2>
+<ul class="pretty square">
+  <li><a href="http://codepen.io/daigofuji/pen/JviqL">Quick Demo 1: Simple usage</a></li>
+  <li><a href="http://codepen.io/daigofuji/pen/yfdEw">Quick Demo 2: CSS effects</a></li>
+  <li><a href="https://github.com/daigofuji/bbclub-font/wiki/Sites-using-bbclub-font">bbclub-font in the wild (Please add your sites)</a></li>
 </ul>
 
 <h2 id="usage">Usage</h2>
 <p>
-Put <code class="large">&lt;i class="bbclub-<em><strong>TEAM ABBR</strong></em>"&gt;&lt;/i&gt;</code> to display a logo in place. If you think of other abbrebiation that should be supported, please <a href="https://github.com/daigofuji/bbclub-font/issues">let me know</a>!
+Put <code class="large">&lt;i class="bbclub-<em><strong>TEAM ABBR</strong></em>"&gt;&lt;/i&gt;</code> to display a logo in place. If you think of other abbrebiation that should be supported, please <a href="https://github.com/daigofuji/bbclub-font/issues">let me know</a>. 
 </p>
 
 <div class="row"> 
@@ -346,7 +357,7 @@ Put <code class="large">&lt;i class="bbclub-<em><strong>TEAM ABBR</strong></em>"
 
     <p><strong>Now supporting multiple sizes</strong></p>
 
-    <ul>
+    <ul class="pretty square">
       <li>Regular size: <i class="bbclub-was"></i> </li>
       <li>Large (with class <code>bb-large</code>): <i class="bbclub-was bb-large"></i> </li>
       <li>2x (class <code>bb-2x</code>): <i class="bbclub-was bb-2x"></i> </li>
