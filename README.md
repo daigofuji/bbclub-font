@@ -1,7 +1,9 @@
 bbclub-font
 ===========
 
-Icon font that contains baseball club logos. 2013 On Deck Cup entry.
+DEMO: http://daigofuji.github.io/bbclub-font/
+
+Icon font that contains baseball club logos, by Daigo Fujiwara. 2013 On Deck Cup entry.
 
 Master branch only hold core files. 
 See [gh-pages branch](https://github.com/daigofuji/bbclub-font/tree/gh-pages) for that folder will include everything.
@@ -11,7 +13,7 @@ https://github.com/daigofuji/bbclub-font/tree/gh-pages
 How to use 
 ==========
 
-Include font folder on your site, link your bbclub-font.css from your html document and adjust the css's relative urls to font folder located on your server.
+Include font folder on your site, link your bbclub-font.css from your html document and adjust the css's relative urls to font folder located on your server. For details: http://daigofuji.github.io/bbclub-font/
 
 
 LICENSE
