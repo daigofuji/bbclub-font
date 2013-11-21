@@ -22,3 +22,7 @@ LICENSE
 Font is licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL) and css and html codes are licensed under [MIT License](http://opensource.org/licenses/mit-license.html), but rights to team logos belongs to the MLB and its teams, please use according to their terms.
 
 DISCLAIMER: bbclub-font is a tool created by a fan (and contributors) and is not endorsed by or affiliated with Major League Baseball or its teams.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/daigofuji/bbclub-font/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
