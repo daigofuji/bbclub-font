@@ -125,7 +125,7 @@
 /* New York Mets* */
 .bb-nyn:before, .bb-NYN:before, .bb-nym:before, .bb-NYM:before, .bbclub-nyn:before, .bbclub-NYN:before, .bbclub-nym:before, .bbclub-NYM:before { content: "S"; }
 /* Miami Marlins */
-.bb-mia:before, .bb-MIA:before, .bbclub-mia:before, .bbclub-MIA:before { content: "T"; }
+.bb-mia:before, .bb-MIA:before, .bbclub-flo:before, .bbclub-FLO:before, .bbclub-fla:before, .bbclub-FLA:before { content: "T"; }
 
 /* NL Central */
 /* Pittsburgh Pirates */
